@@ -1,11 +1,8 @@
-## gutil-color-log
+/**
+ * Created by timur on 8/9/16.
+ */
 
-A wrapper around gulp-util's log for less verbose colored logs.
-
-## Usage
-
-```javascript
-const log = require('gutil-color-log')
+const log = require('./index')
 
 function greaterThanTen(num) {
   if(num > 10) {
@@ -22,4 +19,3 @@ greaterThanTen(7) // red output
 log('magenta', 'There are more colors')
 log('cyan', 'See them all at the link below')
 log('blue', 'https://www.npmjs.com/package/chalk')
-```

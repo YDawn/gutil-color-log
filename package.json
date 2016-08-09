@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/timurtu/gutil-color-log/issues"
   },
-  "homepage": "https://github.com/timurtu/gutil-color-log#readme"
+  "homepage": "https://github.com/timurtu/gutil-color-log#readme",
+  "dependencies": {
+    "gulp-util": "^3.0.7"
+  }
 }
