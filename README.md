@@ -28,4 +28,5 @@ log('cyan', 'See them all at the link below')
 log('blue', 'https://www.npmjs.com/package/chalk')
 ```
 
+![alt text][screenshot]
 [screenshot]: https://raw.githubusercontent.com/timurtu/gutil-color-log/master/res/sc.png "gutil-color-log Screenshot"
