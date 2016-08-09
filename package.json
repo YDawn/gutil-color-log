@@ -1,0 +1,26 @@
+{
+  "name": "gutil-color-log",
+  "version": "1.0.0",
+  "description": "A wrapper around gulp utils color log.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timurtu/gutil-color-log.git"
+  },
+  "keywords": [
+    "gulp",
+    "util",
+    "chalk",
+    "color",
+    "log"
+  ],
+  "author": "Timur Uzel <timurt.uzel@gmail.com> (https://github.com/timurtu)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timurtu/gutil-color-log/issues"
+  },
+  "homepage": "https://github.com/timurtu/gutil-color-log#readme"
+}
