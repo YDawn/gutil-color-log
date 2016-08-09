@@ -2,6 +2,10 @@
 
 A wrapper around gulp-util's log for less verbose colored logs.
 
+## Install
+
+`npm install --save-dev gutil-color-log`
+
 ## Usage
 
 ```javascript
