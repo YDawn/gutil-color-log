@@ -3,7 +3,13 @@
  */
 
 const gutil = require('gulp-util')
+const format = require('util').format
 
-const log = (color, msg) => gutil.log(gutil.colors[color](msg))
+const _log = (color, text, args) => gutil.log(gutil.colors[color](!args ? text : format(text, args)))
 
-module.exports = log
+module.exports = {
+	log: (text, args) => _log('white', text, args),
+	test: (text, args) => _log('magenta', text, args),
+	warn: (text, args) => _log('yellow', text, args),
+	error: (text, args) => _log('red', text, args),
+};
